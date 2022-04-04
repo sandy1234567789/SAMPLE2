@@ -1,0 +1,54 @@
+{
+  "name": "react-typescript-storybook",
+  "version": "1.0.0",
+  "description": "Starter project for React, TypeScript and StoryBook",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 --no-dll"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@storybook/addon-actions": "^6.1.2",
+    "@storybook/addon-essentials": "^6.1.2",
+    "@storybook/addon-links": "^6.1.2",
+    "@storybook/addons": "^6.1.2",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^6.1.2",
+    "@types/jsdom": "^16.2.5",
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^6.0.1",
+    "jsdom": "^16.4.0",
+    "prettier": "^2.2.0",
+    "pretty-quick": "^3.1.0",
+    "react-is": "^17.0.1",
+    "schema-dts": "^0.7.1",
+    "source-map-support": "^0.5.19",
+    "ts-loader": "8.0.11",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
