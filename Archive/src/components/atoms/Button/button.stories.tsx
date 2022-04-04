@@ -7,6 +7,7 @@ export default {
   component: Button,
 } as Meta
 
+
 export const Default = () => {
   return <Button buttonText="Hello" />
 }
